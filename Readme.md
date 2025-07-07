@@ -59,7 +59,7 @@ php artisan queue:work
 
 ### 7. Authentication
 Before accessing the `stock-movement` endpoint:
-1. Get an access token from the `login` endpoint
+1. Get an access token from the `login` endpoint using email as "admin@test.com" and password as "password"
 2. Use the received token as a Bearer token in the Authorization header in Postman
 
 **Example:**
